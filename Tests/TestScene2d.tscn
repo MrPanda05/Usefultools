@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://bwdq2ha52q0f7"]
+
+[ext_resource type="Script" uid="uid://dpb4e20kduwrp" path="res://Tests/TestScene2d.cs" id="1_3benr"]
+[ext_resource type="AudioStream" uid="uid://bt2rm4q4aep2l" path="res://Tests/hitHurt.wav" id="2_3pwys"]
+[ext_resource type="PackedScene" uid="uid://dd2akx1hqwrat" path="res://Objects/FiniteStateMachine/FSM.tscn" id="3_ubfec"]
+
+[node name="TestScene2D" type="Node2D"]
+script = ExtResource("1_3benr")
+audio = ExtResource("2_3pwys")
+
+[node name="FSM" parent="." instance=ExtResource("3_ubfec")]

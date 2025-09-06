@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dd2akx1hqwrat"]
+
+[ext_resource type="Script" uid="uid://ci080b8qs5n8p" path="res://Objects/FiniteStateMachine/FSM.cs" id="1_d432w"]
+
+[node name="FSM" type="Node"]
+script = ExtResource("1_d432w")
+InitialState = NodePath("")
