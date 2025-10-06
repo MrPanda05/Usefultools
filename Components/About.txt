@@ -1,0 +1,6 @@
+This folder is for holding components
+
+Components are to use composition, meaning, they handle only one thing.
+
+For example, healthcomponent, just handle health, nothing else. Something else might listen to the health component
+event and so something.

@@ -9,8 +9,6 @@ namespace Managers
     {
         public static AudioManager Instance { get; private set; }
 
-        //public List<AudioPlayerMono> AudioPlayerMonos { get; private set; } = new List<AudioPlayerMono>();
-
         [Export]
         private PackedScene _audioMono;
         [Export]
